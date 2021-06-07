@@ -1,0 +1,4 @@
+{
+  "testcase.py::TestCase::()::test_file": true,
+  "testcase.py::TestCase::test_file": true
+}

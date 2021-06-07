@@ -1,0 +1,36 @@
+search_E: &search_E
+  by: id
+  pattern: "com.xueqiu.android:id/action_search"
+
+close_E: &close_E
+  by: id
+  pattern: "com.xueqiu.android:id/action_close"
+
+input_text_E: &input_text_E
+  by: id
+  pattern: "com.xueqiu.android:id/search_input_text"
+
+
+stock_name_E: &stock_name_E
+  by: xpath
+  pattern: "//*[@text='PDD']"
+
+
+HangqingPage:
+  -
+    action: click
+    <<: *search_E
+  -
+    action: send_keys
+    keys: $StockName
+    <<: *input_text_E
+  -
+    action: click
+    <<: *stock_name_E
+  -
+    action: click
+    <<: *close_E
+
+
+
+

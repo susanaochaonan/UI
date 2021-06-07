@@ -1,0 +1,17 @@
+{
+  "test_demo.py": true,
+  "test_hangqingPage.py": true,
+  "test_hangqingPage.py::TestHangqingPage::()::test_add_stock": true,
+  "test_hangqingpage.py::TestHangqingpage::()::test_add_stock[alibaba]": true,
+  "test_load.py::TestDemo::test_load": true,
+  "test_login.py::TestLoginPage::test_add_stock[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_login.py::TestLoginPage::test_add_stock[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_login.py::TestLoginPage::test_handle_pop[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_login.py::TestLoginPage::test_handle_pop[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_search.py::TestSearchPage::()::test_add_stock[PDD-PDD]": true,
+  "test_search.py::TestSearchPage::()::test_add_stock[PDD-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_search.py::TestSearchPage::()::test_add_stock[\\u5df2\\u6dfb\\u52a0-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_search.py::TestSearchPage::()::test_add_stock[alibaba-\\u5df2\\u6dfb\\u52a0]": true,
+  "test_search.py::TestSearchPage::()::test_search[alibaba]": true,
+  "test_search.py::TestSearchPage::test_handle_pop": true
+}

@@ -1,0 +1,24 @@
+AndroidClient:
+  start_app:
+    platformName: Android
+    platformVersion: 6.0.1
+    deviceName: 127.0.0.1:6555
+    unicodeKeyboard: True
+    appPackage: com.xueqiu.android
+    appActivity: com.xueqiu.android.common.splash.SplashActivity
+    autoGrantPermissions: True
+    automationName: uiautomator2
+    resetKeyboard: True
+    noReset: True
+
+
+  install_app:
+    platformName: Android
+    platformVersion: 6.0.1
+    deviceName: 127.0.0.1:6555
+    nicodeKeyboard: True
+    appPackage: com.xueqiu.android
+    appActivity: com.xueqiu.android.common.splash.SplashActivity
+    autoGrantPermissions: True
+    automationName: uiautomator2
+    url: http://localhost:4723/wd/hub

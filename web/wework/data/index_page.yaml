@@ -1,0 +1,22 @@
+index_E: &index_E
+  by: id
+  pattern: "#menu_index"
+
+contact_E: &contact_E
+  by: id
+  pattern: "#menu_contacts"
+
+add_member_E: &add_member_E
+  by: css_selector
+  pattern: ".js_has_member>div:nth-child(1)>a:nth-child(2)"
+
+to_contact:
+  -
+    action: click
+    <<: *contact_E
+
+
+to_add_member_E:
+  -
+    action: click
+    <<: *add_member_E

@@ -1,0 +1,44 @@
+name_E: &name_E
+  by: id
+  pattern: "#username"
+
+acctid_E: &acctid_E
+  by: id
+  pattern: "#memberAdd_acctid"
+
+mobile_E: &mobile_E
+  by: id
+  pattern: "#memberAdd_phone"
+
+save_E: &save_E
+  by: css_selector
+  pattern: ".js_member_editor_form>div:nth-child(3)>a:nth-child(1)"
+
+
+add_member:
+  #input_name:
+  -
+    action: send_keys
+    keys: $name
+    <<: *name_E
+
+  #input_acctid:
+  -
+    action: send_keys
+    keys: $acctid
+    <<: *acctid_E
+
+  #input_mobile:
+  -
+    action: send_keys
+    keys: $mobile
+    <<: *mobile_E
+
+  #save_member:
+  -
+    action: click
+    <<: *save_E
+
+
+
+

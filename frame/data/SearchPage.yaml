@@ -1,0 +1,70 @@
+search_E: &search_E #查询按钮
+  by: id
+  pattern: "com.xueqiu.android:id/action_search"
+
+close_E: &close_E  #关闭按钮
+  by: id
+  pattern: "com.xueqiu.android:id/action_close"
+
+input_text_E: &input_text_E  #输入框
+  by: id
+  pattern: "com.xueqiu.android:id/search_input_text"
+
+stock_name_E: &stock_name_E
+  by: xpath
+  pattern: "//*[@resource-id='com.xueqiu.android:id/listview']/*[@index=0]//*[@resource-id='com.xueqiu.android:id/code']"
+
+addcancel_stock_E: &addcancel_stock_E
+  by: xpath
+  pattern: "//*[@resource-id='com.xueqiu.android:id/current_price']/../../android.widget.LinearLayout[@index=2]/android.widget.TextView"
+#  pattern: "//*[@resource-id='com.xueqiu.android:id/list']/android.widget.FrameLayout[@index=0]//android.widget.LinearLayout[@index=2]/*"
+
+
+
+
+
+stock_search:
+  -
+    action: click
+    <<: *search_E
+  -
+    action: send_keys
+    keys: $StockName
+    <<: *input_text_E
+
+get_stock_name:
+  -
+    action: assert
+    <<: *stock_name_E
+
+search_back:
+  -
+    action: click
+    <<: *close_E
+
+addcancel_stock:
+#  -
+#    action: click
+#    <<: *search_E
+#  -
+#    action: send_keys
+#    keys: $StockName
+#    <<: *input_text_E
+  -
+    action: click
+    <<: *stock_name_E
+  -
+    action: click
+    <<: *addcancel_stock_E
+
+cancel_stock:
+  -
+    action: click
+    <<: *addcancel_stock_E
+
+get_add_status:
+  -
+    action: assert
+    <<: *addcancel_stock_E
+
+

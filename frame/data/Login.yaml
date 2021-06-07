@@ -1,0 +1,12 @@
+close_E: &close_E
+    by: xpath
+    pattern: "//*[@resource-id='com.xueqiu.android:id/iv_close']"
+
+
+
+to_close:
+  -
+    action: click
+    <<: *close_E
+
+

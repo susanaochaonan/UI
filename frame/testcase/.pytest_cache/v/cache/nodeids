@@ -1,0 +1,13 @@
+[
+  "test_load.py::TestDemo::test_load",
+  "test_login.py::TestLoginPage::test_add_stock[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]",
+  "test_login.py::TestLoginPage::test_add_stock[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]",
+  "test_login.py::TestLoginPage::test_handle_pop",
+  "test_login.py::TestLoginPage::test_handle_pop[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]",
+  "test_login.py::TestLoginPage::test_handle_pop[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]",
+  "test_search.py::TestSearchPage::()::test_add_stock[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]",
+  "test_search.py::TestSearchPage::()::test_add_stock[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]",
+  "test_search.py::TestSearchPage::test_add_stock[\\u62fc\\u591a\\u591a-\\u5df2\\u6dfb\\u52a0]",
+  "test_search.py::TestSearchPage::test_add_stock[\\u963f\\u91cc\\u5df4\\u5df4-\\u5df2\\u6dfb\\u52a0]",
+  "test_search.py::TestSearchPage::test_handle_pop"
+]
